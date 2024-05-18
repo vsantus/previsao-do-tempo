@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -15,12 +15,12 @@
 
 <body class="container">
 
-    <div class="principal">
+    <div class="caixa-principal">
 
         <div class="ferramentas">
 
-            <input class="pesquisar-cidade" placeholder="Digite o nome da cidade" >
-            <button class="botao-buscar">  
+            <input class="pesquisar-cidade" placeholder="Digite o nome da cidade">
+            <button class="botao-buscar">
                 <img class="img-botao-buscar" src="https://www.svgrepo.com/show/488200/find.svg" alt="busca">
             </button>
 
@@ -30,9 +30,15 @@
 
         <p class="temp">25°C</p>
 
-        <img src="https://openweathermap.org/img/wn/04n.png" alt="icone-tempo">
+        <div class="caixa-secundaria">
+
+            <img src="https://openweathermap.org/img/wn/04n.png" alt="icone-tempo">
+            <p>Nublado</p>
+
+        </div>
 
         <p class="umidade">Umidade: 54%</p>
+        
     </div>
     <script src="api.js"></script>
 </body>

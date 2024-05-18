@@ -4,14 +4,14 @@
     align-items: center;
 }
 
-.principal{
+.caixa-principal{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
     height: 200px;
-    width: 400px;
+    width: 350px;
 
     background-color: black;
     opacity: 0.8;
@@ -20,49 +20,57 @@
     border: 1px solid black;
     border-radius: 10px;
 
-    padding: 5px 10px 5px 10px;
+    padding: 10px;
     gap: 5px;
     text-align: center;
 
 }
 
-.principal .ferramentas{
+.caixa-principal .ferramentas{
     display: flex;
     align-items: center;
     justify-content: center;
 
+    width: 100%;
+
     gap: 10px;
 }
 
-.principal .ferramentas .pesquisar-cidade{
+.caixa-principal .ferramentas .pesquisar-cidade{
     background-color: black;
     opacity: 0.8;
 
     height: 20px;
-    width: calc(100% - 100px); 
+    width: calc(100%-100px); 
     /* utiliza todo o espaço menos 100px */
 
     border: 1px solid rgba(255, 255, 255, 0.336);
     border-radius: 10px;
 
-    padding: 3px;
+    padding: 5px;
 
     color: #fff;
-    font-size: large;
+    font-size: 16px;
     outline: none;
 
 }
 
 
-.principal .ferramentas .botao-buscar{
+.caixa-principal .ferramentas .botao-buscar{
     border: 1px solid black;
     border-radius: 15px;
 
     background-color: #7c7c7c2b;
 }
 
-.principal .ferramentas .botao-buscar .img-botao-buscar{
+.caixa-principal .ferramentas .botao-buscar .img-botao-buscar{
     width: 25px;
     cursor: pointer;
 }
+
+.caixa-principal .ferramentas .botao-buscar .img-botao-buscar:hover{
+    width: 27px;
+}
+
+
 
