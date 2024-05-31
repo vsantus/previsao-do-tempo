@@ -1,4 +1,4 @@
-const key = '8619ca13884a062b0692e3e1bc1bcebc'
+const key = 'token_de_acesso'
 
 function cliqueNoBotaoBuscar() {
     const cidadeInserida = document.getElementById('informacao-cidade').value;
